@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   
   get root to: "welcome#index"
   resources :welcome, only: [:index]
+  get 'my_portfolio', to: 'users#my_portfolio'
+  get 'search_stocks', to: 'stocks#search'
 end
