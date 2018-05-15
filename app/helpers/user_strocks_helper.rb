@@ -1,0 +1,2 @@
+module UserStrocksHelper
+end
